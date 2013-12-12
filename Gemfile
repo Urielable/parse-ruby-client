@@ -10,9 +10,4 @@ group :development do
   gem 'webmock'
   gem 'vcr'
 end
-
-platforms :ruby do
-  gem 'patron' # skip patron for jruby
-end
-
 gem 'iron_mq'
